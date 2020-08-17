@@ -1,0 +1,21 @@
+select employees.emp_no as 'Employee Number',
+first_name as 'First Name', 
+last_name as Surname,
+gender as Gender,
+hire_date as 'Start Date',
+base as Base,
+department as Department,
+job_title as 'Job Title',
+rank_type as 'Rank',
+contract as 'Contract Type',
+fleet as Fleet,
+fte as FTE,
+exit_date as 'Exit Date',
+method_of_leaving as 'Method of Leaving',
+new_employer as 'New Employer',
+salary as Salary
+from hr_data.employees
+LEFT JOIN leavers
+ON employees.emp_no = leavers.emp_no
+Left JOIN salaries
+ON employees.emp_no = salaries.emp_no;
