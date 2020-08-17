@@ -1,0 +1,524 @@
+{
+  "name": "JohnsTheme",
+  "dataColors": [
+    "#fbd357",
+    "#fa6358",
+    "#69a9cb",
+    "#0c3368",
+    "#080d27",
+    "#fce49a",
+    "#fca19a",
+    "#b4d4e5",
+    "#8599b3",
+    "#9c9ea8"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#374649",
+  "tableAccent": "#f4f4f4",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "*": [
+          {
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#0c3368"
+              }
+            },
+            "background": {
+              "show": false,
+              "color": {}
+            },
+            "alignment": "center",
+            "fontSize": 14,
+            "fontFamily": "sans serif bold"
+          }
+        ],
+        "background": [
+          {
+            "show": false,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 50
+          }
+        ],
+        "lockAspect": [
+          {
+            "show": true
+          }
+        ],
+        "border": [
+          {
+            "show": false,
+            "color": {
+              "solid": {
+                "color": "#F4F4F4"
+              }
+            }
+          }
+        ],
+        "visualTooltip": [
+          {
+            "type": "Default"
+          }
+        ],
+        "stylePreset": [
+          {
+            "name": "JohnsTheme"
+          }
+        ]
+      }
+    },
+    "multiRowCard": {
+      "*": {
+        "dataLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#374649"
+              }
+            },
+            "fontSize": 12,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#0c3368"
+              }
+            },
+            "fontSize": 10,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "cardTitle": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0c3368"
+              }
+            },
+            "fontSize": 10,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "card": [
+          {
+            "outline": "None",
+            "outlineColor": {
+              "solid": {
+                "color": "#f4f4f4"
+              }
+            },
+            "outlineWeight": 2,
+            "barShow": true,
+            "barColor": {
+              "solid": {
+                "color": "#374649"
+              }
+            },
+            "barWeight": 2,
+            "cardPadding": 20,
+            "cardBackground": {
+              "solid": {
+                "color": "#f4f4f4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#0c3368"
+              }
+            },
+            "labelPrecision": 2,
+            "fontSize": 25,
+            "fontFamily": "sans serif"
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "general": [
+          {
+            "outlineColor": {
+              "solid": {
+                "color": "#f4f4f4"
+              }
+            },
+            "outlineWeight": 1,
+            "orientation": "vertical",
+            "responsive": true
+          }
+        ],
+        "data": [
+          {
+            "mode": "Basic",
+            "relativeRange": "",
+            "relativePeriod": ""
+          }
+        ],
+        "selection": [
+          {
+            "selectAllCheckboxEnabled": true,
+            "singleSelect": true
+          }
+        ],
+        "header": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#0c3368"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "F4F4F4"
+              }
+            },
+            "outline": "None",
+            "textSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "items": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#000000"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": ""
+              }
+            },
+            "outline": "None",
+            "textSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ]
+      }
+    },
+    "clusteredColumnChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ]
+      }
+    },
+    "barChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ]
+      }
+    },
+    "hundredPercentStackedBarChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ]
+      }
+    },
+    "hundredPercentStackedColumnChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "sans serif"
+          }
+        ]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "grid": [
+          {
+            "gridVertical": true,
+            "gridVerticalColor": {
+              "solid": {
+                "color": "#CCCCCC"
+              }
+            },
+            "gridVerticalWeight": 1,
+            "gridHorizontal": true,
+            "gridHorizontalColor": {
+              "solid": {
+                "color": "#CCCCCC"
+              }
+            },
+            "gridHorizontalWeight": 1,
+            "rowPadSegoe UIg": 1,
+            "outlineColor": {
+              "solid": {
+                "color": "#CCCCCC"
+              }
+            },
+            "outlineWeight": 1,
+            "textSize": 8,
+            "imageHeight": 25
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#fbd357"
+              }
+            },
+            "autoSizeColumnWidth": false,
+            "fontFamily": "sans serif",
+            "fontSize": 8
+          }
+        ],
+        "values": [
+          {
+            "backColorSecondary": {
+              "solid": {
+                "color": "#f4f4f4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "gridVertical": true,
+            "gridVerticalColor": {
+              "solid": {
+                "color": "#CCCCCC"
+              }
+            },
+            "gridVerticalWeight": 1,
+            "gridHorizontal": true,
+            "gridHorizontalColor": {
+              "solid": {
+                "color": "#CCCCCC"
+              }
+            },
+            "gridHorizontalWeight": 1,
+            "rowPadSegoe UIg": 1,
+            "outlineColor": {
+              "solid": {
+                "color": "#CCCCCC"
+              }
+            },
+            "outlineWeight": 1,
+            "textSize": 8,
+            "imageHeight": 25
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#fbd357"
+              }
+            },
+            "autoSizeColumnWidth": false,
+            "fontFamily": "sans serif",
+            "fontSize": 8
+          }
+        ],
+        "values": [
+          {
+            "backColorSecondary": {
+              "solid": {
+                "color": "#f4f4f4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#465d85"
+              }
+            },
+            "image": {
+              "name": "background",
+              "scaling": "Fit",
+              "url": "data:image/jpeg;base64,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"
+            },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "image": {
+              "name": "outspace",
+              "scaling": "Fit",
+              "url": "<Base64 Encode>"
+            },
+            "transparency": 50
+          }
+        ]
+      }
+    }
+  }
+}
